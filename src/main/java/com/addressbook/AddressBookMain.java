@@ -26,6 +26,8 @@ public class AddressBookMain {
             System.out.println("8 View Persons by State");
             System.out.println("9 Count persons by City");
             System.out.println("10 Count persons by State");
+            System.out.println("11 Sort Contacts by Name");
+            System.out.println("12 Exit");
             System.out.println("11 Exit");
 
             int choice = scanner.nextInt();
@@ -162,7 +164,6 @@ public class AddressBookMain {
                     System.out.println("Invalid choice.");
             }
         }
-
         scanner.close();
     }
 }
