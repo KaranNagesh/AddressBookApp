@@ -163,7 +163,6 @@ public class AddressBookMain {
                     System.out.println("Invalid choice.");
             }
         }
-
         scanner.close();
     }
 }
